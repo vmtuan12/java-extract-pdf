@@ -32,7 +32,7 @@ import java.util.Map;
 
 public class ExtractPDF {
     public static void main (String[] args) throws java.io.IOException {
-        String filePath = "/home/mhtuan/work/rag/slide/all_pdf.txt";
+        String filePath = "/home/mhtuan/Downloads/not_converted/files.txt";
 
         try {
             // Read all lines from the file
@@ -52,7 +52,7 @@ public class ExtractPDF {
 
     private static void convert(String pdfFilePath, String outputPath) throws java.io.IOException {
         PDDocument document = Loader.loadPDF(new RandomAccessReadBufferedFile(pdfFilePath));
-        if (document.getNumberOfPages() >= 150) {
+        if (document.getNumberOfPages() >= 500) {
             return;
         }
 
