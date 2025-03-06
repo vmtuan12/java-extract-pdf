@@ -9,3 +9,8 @@ Dependencies
 - jackson-annotations-2.18.2
 - jackson-core-2.18.2
 - jackson-databind-2.18.2
+- kafka-clients-2.7.0
+- json-simple-1.1.1
+- kafka_2.13-2.7.0
+- slf4j-api-1.7.2
+- slf4j-simple-1.7.2
